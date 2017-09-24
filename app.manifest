@@ -1,0 +1,85 @@
+{
+    "namespace": "com.cerema.sysiphe",
+    "git": "https://github.com/CEREMA/com.cerema.sysiphe.git",
+    "title": "Sysiphe",
+    "description": "Gestion du parc informatique",
+    "platform": "webapp",
+    "uid": "SJ6zsWlhx",
+    "version": "0.1.1",
+    "build": 18,
+    "copyright": "Copyright (c) 2017 CEREMA",
+    "license": "bsd3",
+    "author": {
+        "name": "Stéphane ZUCATTI",
+        "mail": "stephane.zucatti@me.com",
+        "twitter": "@mydearsz",
+        "web": "",
+        "github": "https://github.com/CEREMA"
+    },
+    "team": {
+        "debugger": [],
+        "tester": []
+    },
+    "langs": [
+        "en",
+        "fr"
+    ],
+    "frameworks": [
+        {
+            "name": "EXTJS",
+            "type": "desktop",
+            "version": "6.2.0",
+            "theme": "classic",
+            "style": "classic",
+            "src": [
+                "http://cdn.omneedia.com/public/ext/gpl/{version}/ext-{style}-all-debug.js",
+                "http://cdn.omneedia.com/public/ext/gpl/{version}/{style}/theme-{theme}/theme-{theme}-debug.js"
+            ],
+            "res": [
+                "http://cdn.omneedia.com/public/ext/gpl/{version}/{style}/theme-{theme}/resources/theme-{theme}-all-debug.css"
+            ]
+        },
+        {
+            "name": "JQUERY",
+            "version": "3.1.0",
+            "src": "http://cdn.omneedia.com/public/jquery/3.1.0/jquery.js"
+        }
+    ],
+    "auth": [
+        "CEREMA",
+        "CERBERE"
+    ],
+    "paths": {},
+    "controllers": [
+        "CMain"
+    ],
+    "modules": [
+        "Ext.ux.FilterBox",
+        "Ext.ux.upload"
+    ],
+    "plugins": [],
+    "api": [
+        "Materiels",
+        "Docs"
+    ],
+    "db": [
+        "sysiphedb",
+        "bpclight"
+    ],
+    "packages": [],
+    "icon": {
+        "background": "#FFFFFF",
+        "file": "app.png"
+    },
+    "splashscreen": {
+        "background": "#FFFFFF",
+        "color": "lightblue",
+        "file": "app.png"
+    },
+    "server": {
+        "port": 3000
+    },
+    "livereload": {
+        "port": 3030
+    }
+}
